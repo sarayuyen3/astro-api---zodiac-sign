@@ -11,6 +11,7 @@
 		DC08111F2977434D00060324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08111E2977434D00060324 /* ContentView.swift */; };
 		DC0811212977434E00060324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0811202977434E00060324 /* Assets.xcassets */; };
 		DC0811242977434E00060324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0811232977434E00060324 /* Preview Assets.xcassets */; };
+		DCAD0CE72979030300F25E45 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD0CE62979030300F25E45 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DC08111E2977434D00060324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC0811202977434E00060324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC0811232977434E00060324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCAD0CE62979030300F25E45 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DC08111C2977434D00060324 /* astro_api___zodiac_signApp.swift */,
 				DC08111E2977434D00060324 /* ContentView.swift */,
+				DCAD0CE62979030300F25E45 /* ContentViewModel.swift */,
 				DC0811202977434E00060324 /* Assets.xcassets */,
 				DC0811222977434E00060324 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				DC08111F2977434D00060324 /* ContentView.swift in Sources */,
 				DC08111D2977434D00060324 /* astro_api___zodiac_signApp.swift in Sources */,
+				DCAD0CE72979030300F25E45 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

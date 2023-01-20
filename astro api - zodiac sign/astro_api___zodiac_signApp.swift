@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PACKAGENAME:identifier___App: App {
+struct astro_api___zodiac_sign: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
